@@ -69,3 +69,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Observer
   player: {fileID: 0}
+  gameEnding: {fileID: 0}
+  ghost: {fileID: 1688839995377428171, guid: dc5779160d686604d8b5e5749be1bc81, type: 3}

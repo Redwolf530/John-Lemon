@@ -1730,6 +1730,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5637461260074068741, guid: aff016358cf7eb8448ea722f3006aebb,
         type: 3}
+      propertyPath: ghost
+      value: 
+      objectReference: {fileID: 1711285488}
+    - target: {fileID: 5637461260074068741, guid: aff016358cf7eb8448ea722f3006aebb,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1450334316}
@@ -1743,15 +1748,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gargoyle (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2765843797229056847, guid: aff016358cf7eb8448ea722f3006aebb, type: 3}
+    - target: {fileID: 7744539492903163856, guid: aff016358cf7eb8448ea722f3006aebb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6573134813343781951, guid: aff016358cf7eb8448ea722f3006aebb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1711285490}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aff016358cf7eb8448ea722f3006aebb, type: 3}
 --- !u!1 &1334085283
 GameObject:
@@ -1881,7 +1886,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.33875823
   m_Height: 1.5044022
@@ -2251,20 +2256,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1254716354}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1711285490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711285488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ba6e268d36dc2040aac697252b228ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Observer
-  player: {fileID: 1450334316}
-  gameEnding: {fileID: 0}
 --- !u!1001 &1787677984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2323,11 +2314,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2765843797229056847, guid: aff016358cf7eb8448ea722f3006aebb,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1450334316}
     - target: {fileID: 5637461260074068741, guid: aff016358cf7eb8448ea722f3006aebb,
         type: 3}
       propertyPath: player
@@ -2807,16 +2793,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2765843797229056847, guid: aff016358cf7eb8448ea722f3006aebb,
+    - target: {fileID: 5637461260074068741, guid: aff016358cf7eb8448ea722f3006aebb,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1450334316}
     - target: {fileID: 5637461260074068741, guid: aff016358cf7eb8448ea722f3006aebb,
         type: 3}
-      propertyPath: player
+      propertyPath: gameEnding
       value: 
-      objectReference: {fileID: 1450334316}
+      objectReference: {fileID: 1981952670}
     - target: {fileID: 6573134813343781951, guid: aff016358cf7eb8448ea722f3006aebb,
         type: 3}
       propertyPath: m_Name
@@ -3275,11 +3261,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2765843797229056847, guid: aff016358cf7eb8448ea722f3006aebb,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1450334316}
     - target: {fileID: 5637461260074068741, guid: aff016358cf7eb8448ea722f3006aebb,
         type: 3}
       propertyPath: player

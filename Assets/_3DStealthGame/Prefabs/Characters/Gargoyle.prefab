@@ -72,6 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Observer
   player: {fileID: 0}
   gameEnding: {fileID: 0}
+  ghost: {fileID: 6573134813343781951}
 --- !u!1001 &1087594809252189405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +131,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 4696023588488396760, guid: 82dbdc59fa6c9a047a96fc758993a962,
+        type: 3}
+      propertyPath: ghost
+      value: 
+      objectReference: {fileID: 6573134813343781951}
     - target: {fileID: 9097364229578819850, guid: 82dbdc59fa6c9a047a96fc758993a962,
         type: 3}
       propertyPath: m_Name

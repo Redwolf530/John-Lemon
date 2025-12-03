@@ -6,6 +6,9 @@ public class Observer : MonoBehaviour
 {
     public Transform player;
     public GameEnding gameEnding;
+
+    public GameObject ghost;
+
     bool m_IsPlayerInRange;
 
     void OnTriggerEnter(Collider other)
@@ -43,7 +46,7 @@ public class Observer : MonoBehaviour
                     {
                         // Player has shield - destroy the ghost and remove shield
                         playerShield.DeactivateShield();
-                        Destroy(gameObject);
+                        Destroy(ghost);
                     }
                     else
                     {
