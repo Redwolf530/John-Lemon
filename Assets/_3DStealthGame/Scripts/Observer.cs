@@ -36,7 +36,20 @@ public class Observer : MonoBehaviour
             {
                 if (raycastHit.collider.transform == player)
                 {
-                    gameEnding.CaughtPlayer();
+                    // Check if player has shield
+                    PlayerShield playerShield = player.GetComponent<PlayerShield>();
+
+                    if (playerShield != null && playerShield.HasShield)
+                    {
+                        // Player has shield - destroy the ghost and remove shield
+                        playerShield.DeactivateShield();
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        // No shield - caught as usual
+                        gameEnding.CaughtPlayer();
+                    }
                 }
             }
         }

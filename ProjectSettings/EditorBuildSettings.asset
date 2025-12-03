@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_3DStealthGame/Tutorial_Demo/Demo_Scenes/MainMenu.unity
     guid: e0afa25d30aeb924895fa68e23be7af2
+  - enabled: 1
+    path: Assets/_3DStealthGame/Scenes/House.unity
+    guid: 8090f7425c7af3b41a73196e9d4d5ce9
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
